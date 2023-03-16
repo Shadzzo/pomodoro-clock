@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #1e555c;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: gainsboro;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.App{
+    margin: 0 auto;
+    max-width: 600px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.app-title{
+    font-weight: normal;
+}
+
+.settings-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer-settings{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.font-icon:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.clock{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.clock-wrapper{
+    border: 8px solid #13353a;
+    border-radius: 40px;
+    width: 250px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#timer-display{
+    font-size: 64px;
+}
+
+.icon-wrapper{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
